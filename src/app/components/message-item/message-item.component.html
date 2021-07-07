@@ -1,0 +1,5 @@
+<div class="message" [ngClass]="{'mine': message.sender === 'Stasique', 'foreign': message.sender !== 'Stasique'}">
+  <p class="sender">{{message.sender}}</p>
+  {{message.text}}
+  <p class="data">{{receivedDate}}</p>
+</div>

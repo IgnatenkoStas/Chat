@@ -1,0 +1,39 @@
+.message {
+  background-color: rgb(126, 122, 122);
+  color: white;
+  border-radius: 5px;
+
+  max-width: 70%;
+  width:max-content;
+
+  margin: 10px auto;
+  padding: 5px;
+
+  /* display: flex; */
+
+  word-wrap: break-word;
+}
+
+.sender, .data {
+  background-color: inherit;
+  color: rgb(202, 198, 198);
+
+  margin: 0px;
+  padding: 0px;
+  font-size: 12px;
+}
+
+
+.foreign {
+  /* justify-content: flex-start; */
+  margin-left: 10px;
+  margin-right: auto;
+
+
+}
+
+.mine {
+  /* justify-content: flex-end; */
+  margin-left: auto;
+  margin-right: 10px;
+}
